@@ -49,3 +49,25 @@ ReactDOM.render(
   ),
   document.querySelector('#llambda')
 );
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Merge"
+      skill="interpretive dance"
+      imgUrl="/static/img/merge.jpg"
+    />
+  ),
+  document.querySelector('#merge')
+);
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Shortstack Overflow"
+      skill="backflips"
+      imgUrl="/static/img/shortstack-overflow.jpg"
+    />
+  ),
+  document.querySelector('#shortstack-overflow')
+);
